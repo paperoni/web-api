@@ -1,0 +1,1 @@
+﻿This project is placeholder for bussiness logic

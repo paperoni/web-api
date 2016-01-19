@@ -1,0 +1,1 @@
+﻿This project should only contain POCO that map to the DB

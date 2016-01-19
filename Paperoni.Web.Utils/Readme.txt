@@ -1,0 +1,1 @@
+﻿Placeholder for all utility classes that related only to Web
