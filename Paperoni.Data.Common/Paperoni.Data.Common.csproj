@@ -55,8 +55,10 @@
     <Compile Include="IBookRepository.cs" />
     <Compile Include="ILibraryContext.cs" />
     <Compile Include="IEntityRepository.cs" />
+    <Compile Include="Response\PagedContainer.cs" />
     <Compile Include="Projections\BookProjection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Request\PagedRequest.cs" />
     <Compile Include="Retrievers\IBookRetriever.cs" />
     <Compile Include="Retrievers\IRetrieverBase.cs" />
   </ItemGroup>

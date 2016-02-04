@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BookAuthor.cs" />
+    <Compile Include="BookPublisher.cs" />
     <Compile Include="Publisher.cs" />
     <Content Include="Readme.txt" />
     <Compile Include="Author.cs" />
