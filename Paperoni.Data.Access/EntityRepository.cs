@@ -40,7 +40,7 @@ namespace Paperoni.Data.Access
         public TEntity GetByID(TKey id)
         {
             if (KeyNames.Count == 0 || KeyNames.Count > 1)
-                throw new InvalidOperationException(string.Format("{0} cannot be invoked because entity has zero or more than one keys defined.", nameof(GetByID)));
+                throw new InvalidOperationException(string.Format("{0} cannot be invoked because entity has zero or more than one key defined.", "GetByID"));
 
             var whereExpression = CreateFindByIDExpression(id);
             return _libraryContext.GetObjectQuery<TEntity>().FirstOrDefault(whereExpression);
