@@ -12,7 +12,7 @@ namespace Paperoni.Data.Access
     public class LibraryContext : System.Data.Entity.DbContext, ILibraryContext
     {
         public LibraryContext()
-            : base("Paperoni")
+            : base("PaperoniEmbed")
         {
 
         }

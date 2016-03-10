@@ -12,8 +12,8 @@ List of commands:
 Enable-Migrations                                                             // 
 Enable-Migrations -ProjectName:<Project-Name> -MigrationsDirectory:<Migration-Directory>
 
-Add-Migrations <Migrations-Name>                                              // 
-Add-Migrations <Migrations-Name> -ProjectName:<Project-Name>
+Add-Migration <Migrations-Name>                                              // 
+Add-Migration <Migrations-Name> -ProjectName:<Project-Name>
 
 Update-Database -ProjectName:<Project-Name> -verbose                          // Apply latest migration to database
 Update-Database <Migration-Name> -ProjectName:<Project-Name> -verbose         // Apply specific migration to database

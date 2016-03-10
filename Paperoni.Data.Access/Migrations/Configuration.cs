@@ -12,7 +12,7 @@ namespace Paperoni.Data.Access.Migrations
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(Paperoni.Data.Access.LibraryContext context)
+        protected override void Seed(LibraryContext context)
         {
             //  This method will be called after migrating to the latest version.
 

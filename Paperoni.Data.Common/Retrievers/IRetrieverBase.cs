@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Paperoni.Data.Common.Retrievers
 {
-    public interface IRetrieverBase<TResult>
+    public interface IRetrieverBase<out TResult>
     {
         IEnumerable<TResult> GetData();
 

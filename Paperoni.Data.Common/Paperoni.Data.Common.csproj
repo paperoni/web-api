@@ -55,10 +55,8 @@
     <Compile Include="IBookRepository.cs" />
     <Compile Include="ILibraryContext.cs" />
     <Compile Include="IEntityRepository.cs" />
-    <Compile Include="Response\PagedContainer.cs" />
     <Compile Include="Projections\BookProjection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Request\PagedRequest.cs" />
     <Compile Include="Retrievers\IBookRetriever.cs" />
     <Compile Include="Retrievers\IRetrieverBase.cs" />
   </ItemGroup>
@@ -74,6 +72,10 @@
       <Project>{ed13a407-b438-4d58-8a31-5b8029d9086a}</Project>
       <Name>Paperoni.Entities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Request\" />
+    <Folder Include="Response\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
