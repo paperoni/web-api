@@ -29,7 +29,7 @@ namespace Paperoni.Data.Access
 
         public void Update<TEntity>(TEntity modifiedEntity) where TEntity : class, new()
         {
-            var typeName = nameof(TEntity);
+            var typeName = typeof(TEntity).Name;
             var pluralizationService = new EnglishPluralizationService();
             var setName = pluralizationService.Pluralize(typeName);
             GetObjectContext().ApplyCurrentValues(setName, modifiedEntity);

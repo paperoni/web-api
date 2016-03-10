@@ -9,6 +9,6 @@ namespace Paperoni.Data.Common
 {
     public interface IAuthorRepository : IEntityRepository<Guid, Author>
     {
-
+         
     }
 }
