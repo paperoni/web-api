@@ -52,6 +52,7 @@
     <Compile Include="Extensions\QueryableExtensions.cs" />
     <Compile Include="IBookAuthorRepository.cs" />
     <Compile Include="IAuthorRepository.cs" />
+    <Compile Include="IUserRepository.cs" />
     <Compile Include="IBookRepository.cs" />
     <Compile Include="ILibraryContext.cs" />
     <Compile Include="IEntityRepository.cs" />

@@ -62,8 +62,13 @@
     <Compile Include="Migrations\201603100154289_UpdateBookInfo.Designer.cs">
       <DependentUpon>201603100154289_UpdateBookInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201603160515226_UpdateBookAuthorPublisherRelation.cs" />
+    <Compile Include="Migrations\201603160515226_UpdateBookAuthorPublisherRelation.Designer.cs">
+      <DependentUpon>201603160515226_UpdateBookAuthorPublisherRelation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Paperoni.Data.Common\Paperoni.Data.Common.csproj">
@@ -90,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201603100154289_UpdateBookInfo.resx">
       <DependentUpon>201603100154289_UpdateBookInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201603160515226_UpdateBookAuthorPublisherRelation.resx">
+      <DependentUpon>201603160515226_UpdateBookAuthorPublisherRelation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

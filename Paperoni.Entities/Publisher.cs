@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Paperoni.Entities
 {
-    public class Publisher
+    public class Publisher : IEntity
     {
         public Guid ID { get; set; }
         public string Name { get; set; }
+
+        public ICollection<BookPublisher> BookPublishers { get; set; }
     }
 }

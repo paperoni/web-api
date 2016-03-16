@@ -13,18 +13,8 @@ namespace Paperoni.Web.Api
 
             // Web API routes
             config.MapHttpAttributeRoutes();
-
-            config.Routes.MapHttpRoute(
-                name: "Home",
-                routeTemplate: "",
-                defaults: new { controller = "Home", action = "Index"}
-            );
-
-            config.Routes.MapHttpRoute(
-                name: "DefaultApi",
-                routeTemplate: "{controller}/{id}",
-                defaults: new { id = RouteParameter.Optional }
-            );
+            WebApiRoutes.RegisterRoutes(config.Routes);
+            
         }
     }
 }
